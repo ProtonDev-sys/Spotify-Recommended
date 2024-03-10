@@ -83,6 +83,3 @@ def callback():
 
 if __name__ == '__main__':
     app.run(port=8888)
-
-if __name__ == '__main__':
-    app.run(port=8888)
