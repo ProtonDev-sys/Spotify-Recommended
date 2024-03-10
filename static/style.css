@@ -1,0 +1,64 @@
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #1DB954; /* Spotify's brand green for headers */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: #1DB954; /* Spotify's brand green for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF; /* White color for links on hover */
+    text-decoration: underline;
+}
+
+.artist-link {
+    color: #BB86FC; /* A different color for artist links */
+}
+
+.artist-link:hover {
+    color: #FFFFFF; /* White color for artist links on hover */
+    text-decoration: underline;
+}
+
+.button {
+    background-color: #1DB954; /* Spotify's brand green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #1ED760; /* Lighter green on hover */
+}
